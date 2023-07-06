@@ -1,67 +1,45 @@
-/* Reset de estilos */
-body, h1, h2, h3, h4, h5, h6, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Estilos generales */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
-    background-color: #F9E2AF;
-    color: #333;
-  }
-  
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  
-  /* Estilos del encabezado */
-  header {
-    background-color: #009FBD;
-    padding: 20px;
-    color: #fff;
-    border-radius: 10px; /* Agrega esquinas redondeadas */
-  }
-  
-  h1, h2, h3 {
-    color: #627703;
-    font-weight: bold;
-  }
-  
-  /* Estilos de la barra de navegación */
-  .navbar {
-    background-color: #F2F2F2;
-    border-radius: 10px; /* Agrega esquinas redondeadas */
-  }
-  
-  /* Estilos del enlace en la barra de navegación */
-  .navbar .nav-link {
-    color: #333;
-  }
-  
-  /* Estilos del enlace activo en la barra de navegación */
-  .navbar .nav-link.active {
-    color: #fff;
-    background-color: #627703;
-    border-radius: 5px; /* Agrega esquinas redondeadas al enlace activo */
-  }
-  
-  /* Estilos del contenido principal */
-  main {
-    padding: 20px;
-  }
-  
-  article {
-    margin-bottom: 30px;
-  }
-  
-  /* Estilos del pie de página */
-  footer {
-    background-color: #037B8B;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-  
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
+
+.search {
+  position: absolute;
+  right: 50px;
+}
+
+header {
+  background-color: #ffffff;
+  position: relative;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #444;
+  padding: 20px;
+  text-align: center;
+}
