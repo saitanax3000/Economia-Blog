@@ -1,26 +1,43 @@
+body {
+  font-family: 'Andada Pro', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
 .logo {
   display: block;
   margin: 0 auto;
   width: 150px;
 }
 
-header {
-  background-color: #ffffff;
-  position: relative;
-  color: #fff;
-  padding: 20px;
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
 }
 
-.navbar {
-  background-color: #C5DFF8;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-article {
-  margin-bottom: 20px;
+li {
+  display: inline-block;
+  margin-right: 10px;
 }
 
-footer {
-  background-color: #444;
-  padding: 20px;
-  text-align: center;
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
 }
