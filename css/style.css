@@ -11,12 +11,6 @@ body {
   color: #999;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  background-color: #f2f2f2;
-}
-
 .currency-container {
   display: flex;
   align-items: center;
@@ -28,6 +22,8 @@ header {
   margin-right: 5px;
 }
 
+
+ /* Scroll de convertidor de monedas*/
 .scroll-container {
   overflow: hidden;
   width: 100%;
@@ -48,12 +44,18 @@ header {
   }
 }
 
-#navbar {
-  position: fixed;
+/*Header config + scroll */
+#header {
+  position: sticky;
   top: 0;
-  width: 100%;
-  transition: top 0.3s;
-  background-color: #F3F1F5;
+  z-index: 100;
+  background-color: #ECF2FF;
+}
+
+@media (min-width: 768px) {
+  header {
+    position: fixed;
+  }
 }
 
 .logo {
@@ -74,10 +76,6 @@ ul {
   padding: 0;
 }
 
-li {
-  display: inline-block;
-  margin-right: 10px;
-}
 
 a {
   color: #000;

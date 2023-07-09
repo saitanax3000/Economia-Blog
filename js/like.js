@@ -1,16 +1,14 @@
-const likeButtons = document.querySelectorAll(".like-button");
+const likeButton = document.getElementById("like-button");
+const counter = document.querySelector(".counter");
 const visitorId = getVisitorId();
 
-let isLiked = {};
+let isLiked = false;
 
-likeButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    if (!isLiked[button.id]) {
-      counter.textContent++;
-      isLiked[button.id] = true;
-      console.log("like!");
-    }
-  });
+likeButton.addEventListener("click", () => {
+  if (!isLiked) {
+    counter.textContent++;
+    isLiked = true;
+  }
 });
 
 function getVisitorId() {

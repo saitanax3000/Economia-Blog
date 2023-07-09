@@ -1,10 +1,10 @@
-var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
+  var header = document.getElementById("header");
+  var scrollY = window.scrollY;
+
+  if (scrollY > 100) {
+    header.classList.add("sticky");
   } else {
-    document.getElementById("navbar").style.top = "-50px"; // Altura de la barra de navegación
+    header.classList.remove("sticky");
   }
-  prevScrollpos = currentScrollPos;
-}
+};
