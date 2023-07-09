@@ -6,6 +6,55 @@ body {
   background-color: #fff;
 }
 
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.currency-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  opacity: 0;
+}
+
+.currency-icon {
+  margin-right: 5px;
+}
+
+.scroll-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.scroll-content {
+  display: flex;
+  animation: scroll-left 20s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+  background-color: #fff;
+}
+
 .logo {
   display: block;
   margin: 0 auto;
