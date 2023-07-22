@@ -46,16 +46,7 @@ body {
 
 /*Header config + scroll */
 #header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
   background-color: #ECF2FF;
-}
-
-@media (min-width: 768px) {
-  header {
-    position: fixed;
-  }
 }
 
 .logo {
