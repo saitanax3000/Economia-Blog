@@ -8,8 +8,59 @@
 
 
 <url>
-  <loc>http://turiquezaencontrol.com/</loc>
-  <lastmod>2023-07-21T20:06:13+00:00</lastmod>
+  <loc>https://turiquezaencontrol.com/</loc>
+  <lastmod>2023-07-23T04:47:52+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://turiquezaencontrol.com/index.html</loc>
+  <lastmod>2023-07-23T04:47:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://turiquezaencontrol.com/Ahorros.html</loc>
+  <lastmod>2023-07-23T01:31:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://turiquezaencontrol.com/Creditos.html</loc>
+  <lastmod>2023-07-23T01:31:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://turiquezaencontrol.com/Inversion.html</loc>
+  <lastmod>2023-07-23T04:49:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://turiquezaencontrol.com/Presupuesto.html</loc>
+  <lastmod>2023-07-23T01:31:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://turiquezaencontrol.com/Plan_Jubilacion.html</loc>
+  <lastmod>2023-07-23T04:50:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://turiquezaencontrol.com/Educacion_Financiera.html</loc>
+  <lastmod>2023-07-23T01:31:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://turiquezaencontrol.com/Acerca.html</loc>
+  <lastmod>2023-07-23T01:31:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://turiquezaencontrol.com/Terminos.html</loc>
+  <lastmod>2023-07-23T04:51:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://turiquezaencontrol.com/Politicas.html</loc>
+  <lastmod>2023-07-23T04:51:58+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
