@@ -23,7 +23,7 @@ body {
 }
 
 
- /* Scroll de convertidor de monedas*/
+/* Scroll de convertidor de monedas */
 .scroll-container {
   overflow: hidden;
   width: 100%;
@@ -32,6 +32,9 @@ body {
 .scroll-content {
   display: flex;
   animation: scroll-left 20s linear infinite;
+  /* Establecer un ancho mínimo y máximo para el contenido del encabezado */
+  min-width: 500px; /* Ajusta este valor según tus necesidades */
+  max-width: 1200px; /* Ajusta este valor según tus necesidades */
 }
 
 @keyframes scroll-left {
@@ -42,6 +45,12 @@ body {
   100% {
     transform: translateX(-100%);
   }
+}
+
+
+/* Estilo para la etiqueta <strong> dentro de los elementos con la clase "lead" */
+.lead strong {
+  font-weight: bold; /* Establece el peso de la fuente a negrita */
 }
 
 /*Header config + scroll */
