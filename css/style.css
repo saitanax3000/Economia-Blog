@@ -47,7 +47,6 @@ body {
   }
 }
 
-
 /* Estilo para la etiqueta <strong> dentro de los elementos con la clase "lead" */
 .lead strong {
   font-weight: bold; /* Establece el peso de la fuente a negrita */
@@ -64,12 +63,6 @@ body {
   width: 150px;
 }
 
-h1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 0;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -83,7 +76,7 @@ a {
 }
 
 p {
-  margin-bottom: 10px;
+  margin: 50px;
 }
 
 a:hover {
