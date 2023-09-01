@@ -85,23 +85,12 @@ a:hover {
 }
 
 footer {
-  background-color: #fff;
-  padding: 20px;
+  background-color: #ffffff;
   margin-top: 20px;
   text-align: center;
 }
 
-footer p {
-  font-size: 14px;
-  color: #333;
-}
-
-footer a {
-  text-decoration: none;
-  color: #000;
-}
-
-footer a:hover {
-  text-decoration: underline;
-  color: #ccc;
+/* Estilos modernos para los botones */
+.btn-modern {
+  border-radius: 20px; /* Bordes redondeados para un aspecto moderno */
 }
